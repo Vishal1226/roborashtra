@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.img {
+    width: 334px;
+    height: 155px;
+    flex-shrink: 0;
+    opacity: 40%;
+  }
+  .box {
+    display: flex;
+    margin:4% ;
+  }
+  .text{
+    margin-left: 5%;
+    align-self: center;
+  }
+  .text .text-wrapper {
+    color: #ffffff;
+    font-family: "Roboto Slab", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 48.1px;
+    white-space: nowrap; 
+  }  
+  .the-CAM-warrior {
+    color: #ffffff;
+    font-family: "Inknut Antiqua", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 638px;
+    height: 369px;
+    padding-top: 3%;
+    margin-left: 5%;
+  }
+.robo {
+    height: 667px;
+    width: 600px;
+    object-fit: cover;
+}
+.line {
+    height: 1px;
+    width: 519px;
+    background-color: #ffffff;
+}
+.selected-image{
+    opacity: 100%;
+}
