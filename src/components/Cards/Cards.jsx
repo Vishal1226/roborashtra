@@ -17,7 +17,21 @@ const Cards = () => {
     <div>
       {content.map((event) => {
         // create multiple Card
-        return <div>{event.title}</div>;
+        return (
+          <>
+          <div className="row">
+          <div>{event.title}</div>
+          <div>{event.title}</div>
+          </div>
+          <div className="row">
+          <div>{event.title}</div>
+          <div>{event.title}</div>
+          </div>
+
+          </>
+
+        );
+
       })}
     </div>
   );
