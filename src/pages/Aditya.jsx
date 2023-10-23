@@ -5,7 +5,6 @@ import SideBar from "../components/SideBar/SideBar";
 const Aditya = () => {
   return (
     <div>
-      Aditya
       <SideBar />
     </div>
   );
